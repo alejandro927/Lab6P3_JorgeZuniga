@@ -7,7 +7,7 @@ using namespace std;
 class Archivo : public FileSystemNode
 {
 	public:
-		Archivo(); //heredar los parametros de FileSystemNode
+		Archivo(string,string,FileSystemNode*); //heredar los parametros de FileSystemNode
 		virtual string toString() = 0;
 	protected:
 };

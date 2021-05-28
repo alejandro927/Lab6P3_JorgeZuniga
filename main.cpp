@@ -1,4 +1,6 @@
 #include <iostream>
+#include "FileSystem.h"
+#include <string>
 using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
@@ -24,18 +26,21 @@ int main(int argc, char** argv) {
 		opcion = menu();
 		switch(opcion) {
 			case 1: {
-				Cout<<"Se imprime el FileSystem"<<endl;
+				cout<<"Se imprime el FileSystem"<<endl;
 			}
 			break;
 			case 2: {
+				cout<<"Agrega Directorios"<<endl;
 				
 			}
 			break;
 			case 3: {
+				cout << "Agrega Archivos" << endl;
 				
 			}
 			break;
 			case 4: {
+				cout<<"Busca por nombre"<<endl;
 				
 			}
 			break;
