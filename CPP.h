@@ -8,7 +8,7 @@ using namespace std;
 class CPP : public Archivo
 {
 	public:
-		CPP(int, int,string,string,FileSystemNode*);//heredo del padre 
+		CPP(int, int,string,string,FileSystemNode*); 
 		string toString(); 
 	protected:
 		int lineasCodigo;

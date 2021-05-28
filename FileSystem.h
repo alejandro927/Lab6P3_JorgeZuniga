@@ -5,6 +5,7 @@ class FileSystem
 {
 	public:
 		FileSystem();
+		Directorio* getRoot();
 	protected:
 		Directorio* root;
 };
