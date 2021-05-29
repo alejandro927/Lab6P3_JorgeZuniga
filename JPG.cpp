@@ -8,5 +8,5 @@ JPG::JPG(bool cnFlash,string resul,double larg,double anch,string nombre,string 
 }
 
 string JPG::toString() {
-	return this->nombre<<" - "<<this->autor<<" - "<<this->conFlash<<" - "<<this->resolucion << " - " << this->largo << " - " << this->ancho;
+	return this->nombre;//<<" - "<<this->autor<<" - "<<this->conFlash<<" - "<<this->resolucion << " - " << this->largo << " - " << this->ancho;
 }

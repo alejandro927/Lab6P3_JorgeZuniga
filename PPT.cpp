@@ -7,5 +7,5 @@ PPT::PPT(string tit, int numSl, int numPlant, bool tieneAni,string nombre,string
 }
 
 string PPT::toString() {
-	return this->nombre<<" - "<<this->autor<<" - "<<this->titulo<<" - "<<this->numPlantilla << " - " << this->numSlides << " - " << this->tieneAnimaciones;
+	return this->nombre;//<<" - "<<this->autor<<" - "<<this->titulo<<" - "<<this->numPlantilla << " - " << this->numSlides << " - " << this->tieneAnimaciones;
 }

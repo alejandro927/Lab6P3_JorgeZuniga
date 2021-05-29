@@ -6,7 +6,7 @@ Directorio::Directorio(string nombre,string autor,FileSystemNode* file) : FileSy
 
 
 string Directorio::toString() {
-	return "Nombre: " << this->nombre << " Autor:" << this->autor;
+	return "Nombre: " ;//<< this->nombre << " Autor:" << this->autor;
 }
 
 void Directorio::imprimirRecursivo(int valor) {

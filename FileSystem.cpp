@@ -1,7 +1,7 @@
 #include "FileSystem.h"
 
 FileSystem::FileSystem() {
-	this->root = new Directorio("Raiz", "Noel",NULL);
+	this->root = new Directorio("Inicio", "Jorge",NULL);
 }
 
 Directorio* FileSystem::getRoot() {
