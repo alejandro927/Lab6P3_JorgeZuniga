@@ -6,5 +6,5 @@ CPP::CPP(int lC,int nE,string nombre,string autor,FileSystemNode* file) : Archiv
 }
 
 string CPP::toString(){
-	cout<<this->nombre<<" - "<<this->autor<<" - "<<this->padre<<" - "<<this->lineasCodigo<<" - "<<this->numErrores;
+	//cout<<this->nombre<<" - "<<this->autor<<" - "<<this->padre<<" - "<<this->lineasCodigo<<" - "<<this->numErrores;
 }

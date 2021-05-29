@@ -11,6 +11,7 @@ string Directorio::toString() {
 
 void Directorio::imprimirRecursivo(int valor) {
 	
+	
 }
 
 void Directorio::agregarArchivo(FileSystemNode* file) {
