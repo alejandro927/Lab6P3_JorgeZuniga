@@ -6,12 +6,11 @@ Directorio::Directorio(string nombre,string autor,FileSystemNode* file) : FileSy
 
 
 string Directorio::toString() {
-	return "Casi se logra :v";
+	return "Nombre: " << this->nombre << " Autor:" << this->autor;
 }
 
 void Directorio::imprimirRecursivo(int valor) {
-
-
+		
 }
 
 void Directorio::agregarArchivo(FileSystemNode* file) {
