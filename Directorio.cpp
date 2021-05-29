@@ -1,12 +1,14 @@
 #include "Directorio.h"
 
+
 Directorio::Directorio(string nombre,string autor,FileSystemNode* file) : FileSystemNode(nombre,autor,file) {
 
 }
 
 
 string Directorio::toString() {
-	return "Nombre: " ;//<< this->nombre << " Autor:" << this->autor;
+	string a = "Nombre" + this ->nombre;
+	return a;//<< " Autor:" << this->autor;
 }
 
 void Directorio::imprimirRecursivo(int valor) {
@@ -27,10 +29,10 @@ void Directorio::buscarPorNombre(string cadena) {
 	for(int i=0 ; i < hijos.size() ; i++) {
 		FileSystemNode* file = hijos[i];
 		aux = file->getnombre();
-
 		if(aux.find(cadena) != string::npos) {
-			cout << " Nombre: " << file->getnombre() << "Autor: "<< file->getAutor();
+			cout << "Nombre: " << file->getnombre() << "  Autor: "<< file->getAutor()<<endl;
 		}
+		
 	}
 	
 

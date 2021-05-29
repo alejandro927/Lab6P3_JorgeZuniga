@@ -69,7 +69,7 @@ int main(int argc, char** argv) {
 		switch(opcion) {
 			case 1: {
 				cout<<"Se imprime el FileSystem"<<endl;
-
+				carpeta1->imprimirRecursivo(5);
 			}
 			break;
 			case 2: {
@@ -204,7 +204,12 @@ int main(int argc, char** argv) {
 			break;
 			case 4: {
 				cout<<"Busca por nombre"<<endl;
-
+				cout<<"Ingrese el nombre a buscar:"<<endl;
+				string cadena = "";
+				getline(cin,cadena);
+				getline(cin,cadena);
+				carpeta1->buscarPorNombre(cadena);
+				cout<<endl;
 			}
 			break;
 			case 5: {
@@ -214,8 +219,8 @@ int main(int argc, char** argv) {
 		}
 
 	}
-	/*
+	
 	delete carpeta1;
 	delete carpeta2;
-	delete carpeta3;*/
+	delete carpeta3;
 }
