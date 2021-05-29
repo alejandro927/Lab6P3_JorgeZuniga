@@ -30,8 +30,9 @@ void Directorio::buscarPorNombre(string cadena) {
 		aux = file->getnombre();
 
 		if(aux.find(cadena) != string::npos) {
-			cout << "Autor: "<< file->getAutor() << " Nombre: "<< file->getnombre();
+			cout << " Nombre: " << file->getnombre() << "Autor: "<< file->getAutor();
 		}
 	}
+	
 
 }
