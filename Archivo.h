@@ -4,10 +4,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Archivo : public FileSystemNode
-{
+class Archivo : public FileSystemNode {
 	public:
-		Archivo(string,string,FileSystemNode*); //heredar los parametros de FileSystemNode
+		Archivo(string,string,FileSystemNode*); 
 		virtual string toString() = 0;
 	protected:
 };

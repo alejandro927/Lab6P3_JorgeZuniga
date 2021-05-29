@@ -10,8 +10,8 @@ string Directorio::toString() {
 }
 
 void Directorio::imprimirRecursivo(int valor) {
-	
-	
+
+
 }
 
 void Directorio::agregarArchivo(FileSystemNode* file) {
@@ -23,16 +23,15 @@ void Directorio::agregarDirectorio(FileSystemNode* file) {
 }
 
 void Directorio::buscarPorNombre(string cadena) {
-	/*
+	string aux = "";
 	//va encontrando las pelis
 	for(int i=0 ; i < hijos.size() ; i++) {
+		FileSystemNode* file = hijos[i];
+		aux = file->getnombre();
 
-		string aux ="";
-		this->(Directorio)hijos[i]->nombre;
-		//valida  si al;guna pelicula comple con la cadena solicitada
-		if(aux.find(cadena) != string::npos){
-			cout<< p->getTitulo()<< " - "<< p->getDirector() << " - " << p->getGenero() << " - " <<p->getValoracion()<<"/5"<<endl;
+		if(aux.find(cadena) != string::npos) {
+			cout << "Autor: "<< file->getAutor() << " Nombre: "<< file->getnombre();
 		}
 	}
-	*/
+
 }

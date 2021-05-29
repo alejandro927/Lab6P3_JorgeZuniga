@@ -3,17 +3,16 @@
 #include "Archivo.h"
 #include <string>
 using namespace std;
-class PPT : public Archivo
-{
+class PPT : public Archivo {
 	public:
 		PPT(string, int, int, bool, string, string, FileSystemNode*);
 		string toString();
-		
+
 	protected:
 		string titulo;
 		int numSlides;
 		int numPlantilla;
-		bool tieneAnimaciones; 
+		bool tieneAnimaciones;
 };
 
 #endif

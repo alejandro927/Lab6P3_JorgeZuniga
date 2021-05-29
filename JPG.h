@@ -6,8 +6,7 @@
 #include <string>
 using namespace std;
 
-class JPG : public Archivo
-{
+class JPG : public Archivo {
 	public:
 		JPG(bool,string,double,double,string,string, FileSystemNode*);
 		string toString();
@@ -16,8 +15,8 @@ class JPG : public Archivo
 		string resolucion;
 		double largo;
 		double ancho;
-		
-		
+
+
 };
 
 #endif

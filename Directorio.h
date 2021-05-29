@@ -10,17 +10,16 @@
 using namespace std;
 class Directorio : public FileSystemNode {
 	public:
-		Directorio(string,string,FileSystemNode*); 
+		Directorio(string,string,FileSystemNode*);
 		string toString();
 		void imprimirRecursivo(int);
 		void agregarArchivo(FileSystemNode*);
 		void agregarDirectorio(FileSystemNode*);
 		void buscarPorNombre(string);
-		string getNombre();
-		
+
 	protected:
 		vector < FileSystemNode* > hijos;
-		
+
 };
 
 #endif

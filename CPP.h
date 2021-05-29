@@ -5,11 +5,10 @@
 #include <string>
 using namespace std;
 
-class CPP : public Archivo
-{
+class CPP : public Archivo {
 	public:
-		CPP(int, int,string,string,FileSystemNode*); 
-		string toString(); 
+		CPP(int, int,string,string,FileSystemNode*);
+		string toString();
 	protected:
 		int lineasCodigo;
 		int numErrores;

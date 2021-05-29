@@ -2,13 +2,12 @@
 #define FILESYSTEM_H
 #include "Directorio.h"
 
-class FileSystem
-{
-    public:
-        FileSystem();
-        Directorio* getRoot();
-    protected:
-        Directorio* root;
+class FileSystem {
+	public:
+		FileSystem();
+		Directorio* getRoot();
+	protected:
+		Directorio* root;
 };
 
 #endif
